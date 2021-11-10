@@ -1,0 +1,39 @@
+body,html{
+	margin:0px;
+	background-color:antiquewhite(211,211,211);
+
+
+}
+#form{
+	width: 40%;
+	height: auto;
+	background-color:pink;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top:10%;
+	padding: 10px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: cursive;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}

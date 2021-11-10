@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</Form></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="form" >
+        <form  name="registration" onSubmit="return validation();">
+            <fieldset>
+                    <label>First Name:</label></br>
+                    <input type="text" placeholder="First Name" name="fname"></input></br>
+                    <label>Last Name:</label></br>
+                    <input type="text" placeholder="Last Names" name="lname"></input></br>
+                    <label>Gender</label></br>
+                    <select name="gname">
+                    <option selected="" value="Default">Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer not to Say</option></select></br>
+                    <label>Contact Number</label></br>
+                    <input type="text" placeholder="Mobile Number" name="number"></input>
+                    <input type="submit" value="Submit" name="Submit"></input>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
